@@ -13,15 +13,10 @@
 int main(void)
 
 {
+	
+	char prog_puzz[] = "\"Programming is like building a multilingual puzzle";
 
-		char prog_puzz[] = "\"Programming is like building a multilingual puzzle";
-
-
-
-			puts(prog_puzz);
-
-
-
-				return (0);
+	puts(prog_puzz);
+	return (0);
 
 }
