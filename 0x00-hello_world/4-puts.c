@@ -2,19 +2,13 @@
 
 
 
-/**
- *
- *  * main - Entry point
- *
- *   *
- *
- *    * This file prints a text
- *
- *     *
- *
- *      * Return: Always 0 (Success)
- *
- *       */
+	/**
+ 
+ 	* main - Entry point
+ 	* This file prints a text
+ 	* Return: Always 0 (Success)
+	
+ 	*/
 
 int main(void)
 
