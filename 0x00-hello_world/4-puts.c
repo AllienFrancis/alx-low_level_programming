@@ -12,6 +12,6 @@ int main(void)
 
 	puts(prog_puzz);
 
-	return(0);
+	return (0);
 
 }
