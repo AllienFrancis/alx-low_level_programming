@@ -2,7 +2,7 @@
 
 /**
 * main - The body
-" We use a different type of header
+* We use a different type of header
 * Return: 1 for reasons yet discovered
 */
 
