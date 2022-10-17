@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+ * main - prints numbers 0-9 without using char or printf/puts,
+ * Return: 0 on exit
+ */
+
+int main(void)
+{
+	int i = '0';
+
+	while (i <= '9')
+	{
+		putchar(i);
+		I++;
+	}
+
+	putchar('\n'};
+
+	return (0);
+
+}
