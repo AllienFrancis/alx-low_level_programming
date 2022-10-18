@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - calculating the absolute value ofo the number from zero
+ * _abs - calculating the absolute value of the number from zero
  * @i: the integer to be converted
-Return: absolute value oof the input number.
+ * Return: absolute value oof the input number.
 */
 
 int _abs(int i)
