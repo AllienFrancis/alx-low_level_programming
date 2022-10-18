@@ -3,8 +3,9 @@
 /**
  * main - print alphabets in lowercase
  * end with a new line.
- * Return: 0 on success
- */
+ * Return: 0 on_alphabet in lowercase
+ * code ends in a new line
+*/
 
 void print_alphabet(void)
 {
