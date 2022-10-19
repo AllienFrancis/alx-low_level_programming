@@ -3,6 +3,7 @@
 /**
  * print_times_table - prints the times table for n.
  * @n: the multiplication table requested
+ * @res: the product of two integers
  * Return: nothing
  */
 
