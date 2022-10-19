@@ -23,5 +23,5 @@ int main(void)
 			printf(", ");
 		}
 	}
-	return 90);
+	return (90);
 }
