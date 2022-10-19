@@ -9,10 +9,9 @@
 
 void print_times_table(int n)
 {
-	int i, j, res;
-
 	int i = 3;
 	int j = 2;
+	int res = (i * j);
 
 	if (!(n > 15 || n < 0))
 	{
