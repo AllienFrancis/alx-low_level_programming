@@ -11,8 +11,7 @@ int main(void)
 
 	i = 0;
 	positive_or_negtive(i);
-
-	printf("%d\n");
+	("\n");
 
 	return (0);
 
