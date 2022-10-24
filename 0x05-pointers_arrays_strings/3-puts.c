@@ -2,14 +2,22 @@
 
 /**
  * _puts - prints a string
- * @str: string'
+ * @str: string
+ * Return: nothing
  */
 
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
+	int x;
+	int y;
 
-	_putchar('\n');
+	for (x = 0; str[x]; x++)
+	{
+		y = (int) str[x];
+
+		_putchar(y);
+	}
+
+	_putchar(10 '\n');
 
 }
