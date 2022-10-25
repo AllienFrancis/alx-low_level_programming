@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		if (t == 0)
 		{
-			printf("5d", a[t]);
+			printf("%d", a[t]);
 		}
 		else
 		{
