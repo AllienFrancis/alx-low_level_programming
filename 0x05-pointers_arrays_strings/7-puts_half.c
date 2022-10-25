@@ -1,4 +1,4 @@
-#include "Main.h"
+#include "main.h"
 
 /**
  * puts_half - the secong half is fun
