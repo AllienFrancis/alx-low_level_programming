@@ -6,13 +6,13 @@
  * Return: the converted int
  */
 
-int_atoi(char *s)
+int _atoi(char *s)
 {
 	int i, d, n, l, f, t;
 
 	i = d = n = l = f = t = 0;
 
-	while (s[l] !- '\0')
+	while ((s[l]) !- '\0')
 		l++;
 
 	while (i < l && f == 0)
