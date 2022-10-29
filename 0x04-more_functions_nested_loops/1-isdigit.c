@@ -9,6 +9,8 @@
 
 int _isdigit(init c)
 {
+	char c = 0;
+	
 	if ((c > 47) && (c < 58))
 	{
 		return (1);
