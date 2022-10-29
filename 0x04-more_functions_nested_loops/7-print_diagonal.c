@@ -11,7 +11,7 @@ void print_diagonal(int n)
 
 	for (l = n; l > 0; l--)
 	{
-		foro (k = l; (n - k) > 0; k++)
+		for (k = l; (n - k) > 0; k++)
 		{
 			if ((n - l) == 0)
 			{
