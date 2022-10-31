@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 	int s1 = 0;
 	int s2 = 0;
 
-	foro (i = 0; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size; j++)
 		{
