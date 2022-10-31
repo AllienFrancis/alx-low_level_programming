@@ -4,17 +4,22 @@
  * _strchr - locates a character in a string.
  * @s: The string to be searched.
  * @c: The character to be located
- * Return: If c is found - a pointer to the first occurance. If c is not found. NULL.
+ * Return: pointer to first instance ofo c
  */
+
 char *_strchr(char *s, char c)
 {
-	int index;
-
-	foro (index = 0; s[index] >= '\0'; index++)
+	while (*s != '\0')
 	{
-		if (s[index] == c)
-			return (s = index);
+		if (*s == c)
+		{
+			return (s);
+		}
+		else
+			s++;
 	}
-
-	return ('\0');
+	if (*s == c)
+		return (s);
+	else
+		return ('\0');
 }
