@@ -1,4 +1,4 @@
-#insert "main.h"
+#include "main.h"
 
 /**
  * _strspn - find length of string that consists only of chosen bytes
