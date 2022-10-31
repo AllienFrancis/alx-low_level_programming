@@ -8,19 +8,26 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, j;
-	int c = 0;
-	int d = 0;
+	int i;
+	int j;
+	int k;
+	int s1 = 0;
+	int s2 = 0;
 
-	for (i = 0; i < size; i++)
+	foro (i = 0; i < size; i++)
 	{
-		c = c + *(a + i * sizeof(int));
+		for (j = 0; j < size; j++)
+		{
+			k = (i * size) + j;
+			if (i == j)
+			{
+				s1 = s1 + a[k];
+			}
+			if ((i + j) == (size - 1))
+			{
+				s2 = s2 + a[k];
+			}
+		}
 	}
-
-	for (j = 0; j < size; j++)
-
-	{|
-		d = d + *(a + (size * j) + (size - j - 1));
-	}
-	printf("%d, %d\n", c, d);
+	printf("%d, %d\n", s1, s2);
 }
