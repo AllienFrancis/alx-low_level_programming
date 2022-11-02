@@ -23,7 +23,6 @@ int sqrt_check(int n, int c)
  * _sqrt_recursion - Find the square root of given number
  * @n: Number given to find root of
  * Return: The square rooot or -1 if there is no natural square root of
- * Return: The square root or -1 if there is no natural square root
  */
 int _sqrt_recursion(int n)
 {
