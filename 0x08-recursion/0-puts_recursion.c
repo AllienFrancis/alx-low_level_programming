@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Print the given string w/ _putchar recursively
+ * _puts_recursion - Print the given string
  * @s: The given string
- * Return: 0 if succesful exit
+ * Return: 0
  */
 
-void _puts_recursion(char *)
+void _puts_recursion(char *s)
 {
 	if (*s != '\0')
 	{
