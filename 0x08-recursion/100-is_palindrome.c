@@ -38,7 +38,7 @@ int pal_check(char *s, int l)
 	{
 		return (1);
 	}
-	else if(*s != s[l - 1])
+	else if (*s != s[l - 1])
 	{
 		return (0);
 	}
