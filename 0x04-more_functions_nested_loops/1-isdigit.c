@@ -1,24 +1,34 @@
 #include "main.h"
 
+
+
 /**
- * _isdigit - checks for characters that are digits
- * @c: character
+
+ * _isdigit - tests if input is a digit or not
+
+ * @c: - the input number
+
  *
- * Return: 0 or 1
+
+ * Return: 1 if num and 0 if not
+
  */
 
-int _isdigit(init c)
+int _isdigit(int c)
+
 {
-	char c = 0;
-	
+
 	if ((c > 47) && (c < 58))
 	{
+
 		return (1);
+
 	}
+
 	else
 	{
 
 		return (0);
-	}
 
+	}
 }
