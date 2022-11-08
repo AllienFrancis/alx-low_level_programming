@@ -3,7 +3,6 @@
 /**
  * alloc_grid - creates a 2d array of a specified width and height
  * @width: width and
-
  * @height: height of the array
  *
  * Return: NULL or a pointer to the array
