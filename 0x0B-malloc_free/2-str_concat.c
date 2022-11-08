@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
-
- * str_concat - a function that concatenates two strings
+ * *str_concat - a function that concatenates two strings
  * @s1: string 1
  * @s2: string 2
  *
  * Return: a pointer to the new string
  */
 char *str_concat(char *s1, char *s2)
-
 {
 
 	char *s3;
